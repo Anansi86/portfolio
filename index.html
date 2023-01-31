@@ -1,53 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
+  
+  <div class="row">
+    <h2>Shawn Staton's Web Development Portfolio</h2>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-3 justify-content-center">
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="img/Screen Shot 2023-01-31 at 1.32.04 PM.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">Esports Tracker (Over Watch)</h3>
+          <h5>Stack: HTML, CSS, BootStrap, JavaScript, React, Python, SQL, and Django</h5>
+          <p class="card-text">
+            Tracks video game leagues such as Overwatch, Rocket league, and
+            League of Legends I made my own API for this to function correctly.
+            The home page only appears at first, but once you sign-in you can
+            see the other pages in the nav bar.
+          </p>
         </div>
       </div>
-   
-</head>
-<body>
-    
-</body>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="img/Screen Shot 2023-01-31 at 12.22.14 PM.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">Weather App</h3>
+          <h5>Stack: HTML, CSS, BootStrap, JavaScript</h5>
+          <p class="card-text">
+            An app that when you input your zip code will give you weather
+            information of that area. This app pulls from an API when you enter
+            any national zipcode. This project I had to learn how to make HTML
+            elements in JavaScript. I also was trying to be more dynamic in my
+            code. I wrote a for loop to make all my cards so I didn’t have to
+            repeat code.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="img/Screen Shot 2023-01-31 at 1.40.03 PM.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h3 class="card-title">Alarm Clock</h3>
+          <h5>Stack: HTML, CSS, and JavaScript</h5>
+          <p class="card-text">
+            A clock that you can set an alarm and then hit the snooze button to
+            stop the alarm. One of my earlier projects. When using it you have
+            to mimic the time format of the actual clock. Then when the alarm
+            goes off (with sound) you can hit the snooze button to stop it. This
+            app introduced New.date to me, and how I can Manipulate it to
+            display the clock the way I want it to operate. Example how I can
+            write a line of code to make the clock a 12 hour clock instead of 24
+            hour.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-115">
+        <img src="img/Screen Shot 2023-01-31 at 2.07.48 PM.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Todo List</h5>
+          <h5>Stack: HTML, CSS, BootStrap, JavaScript, React</h5>
+          <p class="card-text">
+            This is a longer card with supporting text below as a natural
+            lead-in to additional content. This content is a little bit longer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <body></body>
 </html>
