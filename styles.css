@@ -2,10 +2,15 @@
 .card img {
         max-height: 50%;
         max-width: 50%;
-    }
+}
+
 
 body {
     background-image: url("https://thumbs.gfycat.com/EnormousZigzagBoa-max-1mb.gif");
     background-size: cover;
+}
+
+.card-img-top {
+    margin:auto;
 }
 
