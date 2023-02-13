@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url("https://thumbs.gfycat.com/EnormousZigzagBoa-max-1mb.gif");
+    background-image: url("https://wallpaperaccess.com/full/869923.gif");
     background-size: cover;
 }
 
@@ -40,7 +40,7 @@ col {
   }
   
   h1, h2, h3, h4, h5, h6, p {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     color: white;
   }
   
@@ -100,3 +100,5 @@ col {
   .mb-auto {
     overflow: scroll;
   }
+
+ 
